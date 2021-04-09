@@ -1,0 +1,22 @@
+[2021-04-08T02:28:37.110183] Entering context manager injector.
+[context_manager_injector.py] Command line Options: Namespace(inject=['ProjectPythonPath:context_managers.ProjectPythonPath', 'RunHistory:context_managers.RunHistory', 'TrackUserError:context_managers.TrackUserError'], invocation=['diabetes_experiment.py'])
+Script type = None
+[2021-04-08T02:28:37.762046] Entering Run History Context Manager.
+[2021-04-08T02:28:38.368670] Current directory: /tmp/azureml_runs/mslearn-diabetes_1617848827_c36a90ea
+[2021-04-08T02:28:38.368713] Preparing to call script [diabetes_experiment.py] with arguments:[]
+[2021-04-08T02:28:38.368732] After variable expansion, calling script [diabetes_experiment.py] with arguments:[]
+
+Analyzing 10000 rows of data
+0    6656
+1    3344
+Name: Diabetic, dtype: int64
+
+
+[2021-04-08T02:28:44.175063] The experiment completed successfully. Finalizing run...
+[2021-04-08T02:28:44.175081] Start FinalizingInRunHistory
+[2021-04-08T02:28:44.184077] Logging experiment finalizing status in history service.
+Starting the daemon thread to refresh tokens in background for process with pid = 7626
+Cleaning up all outstanding Run operations, waiting 300.0 seconds
+2 items cleaning up...
+Cleanup took 0.13056373596191406 seconds
+[2021-04-08T02:28:45.222665] Finished context manager injector.
